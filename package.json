@@ -1,0 +1,15 @@
+{
+  "name": "mobile_shopee-e-commerce-website-master",
+  "version": "1.0.0",
+  "description": "A E-Commerce project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass ./HTML Template/sass/style.scss style.css --watch"
+  },
+  "author": "Shankar Kharel",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.32.8"
+  }
+}

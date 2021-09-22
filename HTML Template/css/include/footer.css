@@ -1,0 +1,201 @@
+:root {
+  --primary: #3dcfd3;
+  --dark: #161616;
+  --pure: #ffffff;
+  --ternary: #898989;
+  --light: #f2f2f2;
+}
+.flex {
+  display: flex;
+}
+.items-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.btn {
+  padding: 0.8rem 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: solid transparent;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+.btn-primary:hover {
+  background-color: var(--dark);
+  border-color: var(--primary);
+  color: var(--primary);
+}
+.btn-secondary {
+  background-color: transparent;
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.btn-secondary:hover {
+  background-color: var(--primary);
+  border-color: transparent;
+  color: var(--dark);
+  transition: all 0.3s ease;
+}
+
+.flex-1 {
+  flex: 6;
+}
+.justify-center {
+  justify-content: center;
+}
+
+.blog .container h1 {
+  font-size: 2rem;
+  color: var(--pure);
+  text-align: center;
+}
+.blog .container span {
+  color: var(--primary);
+}
+
+.blog .container p {
+  font-size: 1.7rem;
+  font-family: "Lato", sans-serif;
+  line-height: 1rem;
+  color: var(--primary);
+  text-align: center;
+}
+.blog {
+  background: var(--dark);
+  margin-top: -4rem;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 77% 88%, 0 100%);
+}
+.blog .card-wraper {
+  display: grid;
+  grid-template-columns: repeat(3.1fr);
+  grid-gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+.blog .card-wraper .card {
+  background-color: var(--pure);
+  margin-bottom: 6rem;
+  margin-top: 6rem;
+  text-align: start;
+  padding: 5px 5px;
+}
+.blog .card-wraper .card h1 {
+  font-size: 2rem;
+  color: var(--primary);
+  text-align: start;
+}
+.blog .card-wraper .card p {
+  color: var(--ternary);
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5rem;
+  text-align: start;
+}
+.blog .card-wraper .card span {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.contact .container h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+.contact .container span {
+  font-size: 2rem;
+  color: var(--primary);
+  line-height: 2rem;
+}
+
+.contact .container p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: var(--dark);
+  font-size: 1.6rem;
+}
+.contact .container .cardwraper {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.contact .container .cardwraper .card {
+  margin-left: 6rem;
+}
+
+.contact .container .cardwraper .card h1 {
+  font-size: 1.6rem;
+  color: var(--dark);
+  line-height: 1.5rem;
+}
+
+.contact .container .cardwraper .card h6 {
+  font-size: 1rem;
+  line-height: 2rem;
+  word-spacing: 5px;
+}
+
+.contact .input-wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  margin-top: 4rem;
+}
+.contact .input-wrap-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact .input-wrap-1 textarea {
+  margin-bottom: 1rem;
+}
+
+.contact .input-wrap-1 {
+  justify-content: center;
+  align-content: center;
+}
+
+.footer .container .upper {
+  display: flex;
+  align-items: center;
+}
+.footer .container .upper img {
+  margin-left: 23rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+.footer .container .upper h1 {
+  margin-left: -15rem;
+  margin-bottom: 5rem;
+  font-size: 2rem;
+  color: var(--pure);
+}
+
+.footer .container {
+  background-color: var(--dark);
+  color: var(--dark);
+}
+
+.footer .container .social a {
+  font-family: "Lato", sans-serif;
+  color: var(--primary);
+  text-decoration: none;
+  margin-top: 4rem;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 6rem;
+}
